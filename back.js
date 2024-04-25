@@ -1,6 +1,5 @@
-console.log(1 +  +"2" + "2");
-const merge = (a, b) => [...a, ...b];
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log(+"1" +  "1" + "2");
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const results = await Promise.all(resultingPromises);
+[foo, bar] = [bar, foo];
+const arrayContains = (arr, element) => arr.includes(element);
