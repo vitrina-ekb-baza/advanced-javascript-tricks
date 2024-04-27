@@ -1,4 +1,6 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const executableName = getExecutableName(channel, appName);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
 var c = new Counter(); c.add(); c.add(); c.add();
-var pattern = {};
+const toggleBool = () => (bool = !bool);
+console.log(1 +  "2" + "2");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
