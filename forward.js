@@ -1,3 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const merge = Object.assign({}, obj1, obj2);
