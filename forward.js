@@ -1,3 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const merge = Object.assign({}, obj1, obj2);
+[foo, bar] = [bar, foo];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const getRandomBoolean = () => Math.random() >= 0.5;
