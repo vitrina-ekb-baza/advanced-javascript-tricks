@@ -1,1 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isArray = (arr) => Array.isArray(arr);
+const reversedString = str => str.split('').reverse().join('');
+const appName = getAppName(channel);
