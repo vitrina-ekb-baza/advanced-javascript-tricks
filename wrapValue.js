@@ -1,1 +1,2 @@
-const isEven = (num) => num % 2 === 0;
+const isEmptyArray = arr => !arr.length;
+const value = ( 5 < 7 ) ? "True" : "False" ;
