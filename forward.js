@@ -1,1 +1,1 @@
-const result = await makeHttpRequest(url);
+const executableName = getExecutableName(channel, appName);
