@@ -1,3 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
