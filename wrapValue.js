@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+var arr1 = "john".split('');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
