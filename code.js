@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const reversedString = str => str.split('').reverse().join('');
-const appName = getAppName(channel);
+const arrayContains = (arr, element) => arr.includes(element);
+var DELIM_SIZE = 4;
+const randomString = () => Math.random().toString(36).slice(2);
