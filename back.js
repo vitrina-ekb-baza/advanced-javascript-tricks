@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isEven = (num) => num % 2 === 0;
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log("1 && 2 = "+(1 && 2));
+console.log("0 || 1 = "+(0 || 1));
