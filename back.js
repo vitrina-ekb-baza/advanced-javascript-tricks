@@ -1,3 +1,1 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-console.log("1 && 2 = "+(1 && 2));
-console.log("0 || 1 = "+(0 || 1));
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
