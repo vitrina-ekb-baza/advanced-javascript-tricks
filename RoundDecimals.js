@@ -1,3 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-var arr2 = arr1.reverse();
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
