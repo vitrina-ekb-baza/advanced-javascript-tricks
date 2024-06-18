@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
