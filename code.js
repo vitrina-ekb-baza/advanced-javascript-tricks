@@ -1,3 +1,2 @@
-const result = await makeHttpRequest(url);
-const lastElement = arr => arr[arr.length - 1];
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
