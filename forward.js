@@ -1,3 +1,3 @@
-console.log(false === '0');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
