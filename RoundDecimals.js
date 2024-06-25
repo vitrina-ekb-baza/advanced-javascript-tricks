@@ -1,1 +1,1 @@
-const channelName = getChannelName(channel);
+const flattenedArray = arr => [].concat(...arr);
