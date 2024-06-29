@@ -1,1 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const updated = numbers.filter(element => element > 6);
+var pattern = {};
+var arr2 = arr1.reverse();
