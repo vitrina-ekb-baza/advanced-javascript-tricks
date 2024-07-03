@@ -1,2 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const channelName = getChannelName(channel);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
