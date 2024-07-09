@@ -1,3 +1,3 @@
-console.log(1 +  -"1" + "2");
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-var arr2 = arr1.reverse();
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const updated = numbers.filter(element => element > 6);
