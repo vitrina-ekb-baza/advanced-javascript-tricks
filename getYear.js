@@ -1,2 +1,2 @@
-console.log(1 +  -"1" + "2");
-const merge = (a, b) => [...a, ...b];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const flattenedArray = arr => [].concat(...arr);
