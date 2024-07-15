@@ -1,2 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const flattenedArray = arr => [].concat(...arr);
+[foo, bar] = [bar, foo];
+const appName = getAppName(channel);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
