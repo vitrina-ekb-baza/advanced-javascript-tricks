@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const appName = getAppName(channel);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const fullName = name || 'buddy';
+const isEmptyArray = arr => !arr.length;
+const uniqueArray = arr => [...new Set(arr)];
