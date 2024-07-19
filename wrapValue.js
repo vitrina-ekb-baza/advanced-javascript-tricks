@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-var pattern = {};
-var arr2 = arr1.reverse();
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekday = (date) => date.getDay() % 6 !== 0;
