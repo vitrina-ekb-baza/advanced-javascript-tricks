@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const updated = numbers.filter(element => element > 6);
+var arr3 = "jones".split('');
+const arrayContains = (arr, element) => arr.includes(element);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
