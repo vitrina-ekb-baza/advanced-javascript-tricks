@@ -1,3 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const uniqueArr = (arr) => [...new Set(arr)];
-const maxNumber = arr => Math.max(...arr);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const channel = getChannel(computedAppVersion);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
