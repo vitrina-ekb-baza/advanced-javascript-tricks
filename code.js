@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-const arrayContains = (arr, element) => arr.includes(element);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isTabInView = () => !document.hidden;
