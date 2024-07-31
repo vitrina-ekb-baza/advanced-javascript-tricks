@@ -1,3 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const channel = getChannel(computedAppVersion);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log( "A" - "B" + "2");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
