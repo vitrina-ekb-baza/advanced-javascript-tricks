@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
