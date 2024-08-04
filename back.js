@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const reversedString = str => str.split('').reverse().join('');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log("1 || 2 = "+(1 || 2));
