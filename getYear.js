@@ -1,3 +1,3 @@
-console.log(1 +  +"2" + "2");
-var pattern = {};
-var arr2 = arr1.reverse();
+console.log(typeof typeof 1);
+console.log(1 +  "2" + "2");
+const flattenedArray = arr => [].concat(...arr);
