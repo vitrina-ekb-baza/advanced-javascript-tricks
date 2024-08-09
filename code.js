@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const isTabInView = () => !document.hidden;
+console.log( "A" - "B" + "2");
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
